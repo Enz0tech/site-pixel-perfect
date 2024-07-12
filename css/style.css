@@ -393,37 +393,13 @@ body {
     margin-bottom: 24px;
 }
 
-.question-h3.close {
-    margin-bottom: 32px;
-}
-
 .question-p {
     color: var(--gray-color);
     margin-bottom: 35px;
     max-width: 730px;
     line-height: 22px;
 }
-
-.question-h3.open::before,
-.question-h3.close::before {
-    content: "";
-    display: inline-block;
-    width: 15px;
-    height: 15px;
-    background-image: url(../img/arrow-question.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-right: 16px;
-}
-
-.question-h3.open::before {
-    transform: rotate(-90deg);
-}
-
-.question-h3.close+.question-p {
-    display: none;
-}
-
+    
 .partners {
     padding-top: 100px;
     padding-bottom: 81px;
